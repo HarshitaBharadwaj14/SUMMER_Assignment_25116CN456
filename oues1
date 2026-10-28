@@ -1,0 +1,14 @@
+# include<stdio.h>
+int addfunction(int a, int b){
+   return a+b;
+    
+}// The function should take two arguments a and b
+// The function should return a+b
+int main(){
+     int a,b,sum;
+    printf(" enter the two numbers");
+    scanf("%d %d",&a,&b);
+    sum = addfunction(a ,b);
+    printf("%d + %d =%d\n ",a,b,sum);
+    return 0;
+}
